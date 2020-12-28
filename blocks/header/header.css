@@ -1,0 +1,13 @@
+.header {
+    box-sizing: border-box;
+    margin:0 auto;
+    padding:28px 48px 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 128px;
+    background-color:#2A2C2F;
+    
+}
