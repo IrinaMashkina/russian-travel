@@ -8,6 +8,10 @@
     justify-content: space-between;
     width: 100%;
     min-height: 128px;
-    background-color:#2A2C2F;
+    }
     
+@media screen and (max-width:768px) {
+    .header {
+      padding: 28px 24px 48px;
+    }
 }

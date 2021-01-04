@@ -2,8 +2,5 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0 48px 92px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
+    border: red solid 1px;
 }
