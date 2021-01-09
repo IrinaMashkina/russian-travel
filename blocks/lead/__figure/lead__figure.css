@@ -1,20 +1,24 @@
 .lead__figure {
-    margin: 0 auto;
+    box-sizing: border-box;
+    margin:0 auto;
     padding: 0;
-    min-width: 984px;
+    width: 72.5%;
+    max-width: 984px;
+    border: olivedrab 1px solid;
 }
-
-@media (max-width:768px) {
+@media (max-width:1279px) {
+    .lead__figure {
+        width: 90.6%;
+        max-width: 928px;
+    }
+}
+@media (max-width:767px) {
     .lead__figure {
         width: 100%;
     }
 }
 
-@media (max-width:1280px) {
-    .lead__figure {
-        max-width: 928px;
-    }
-}
+
 
 
 

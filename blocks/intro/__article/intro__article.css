@@ -1,0 +1,33 @@
+.intro__article {
+    box-sizing: border-box;
+    width: 984px;
+    margin: 0 auto;
+    border: solid 1px rebeccapurple;
+    padding: 0 0 92px;
+}
+
+@media (max-width:1279px) {
+    .intro__article {
+        max-width: 928px;
+        padding: 0 0 92px;
+    }
+}
+
+@media (max-width:786px) {
+    .intro__article {
+        width: 100%;
+        padding: 0 0 88px;
+    }
+}
+
+@media (max-width:400px) {
+    .intro__article {
+        width: 100%;
+        padding: 0 0 64px;
+    }
+} 
+
+
+
+
+

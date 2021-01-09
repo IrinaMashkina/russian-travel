@@ -1,8 +1,30 @@
 .intro {
+    box-sizing: border-box;
     color: #ffffff;
-    margin: 0 auto 92px 148px;
-    
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
-
+    border: olivedrab 1px solid;
 }
+
+@media (max-width:1279px) {
+    .intro {
+        padding: 0 48px;
+    }
+}
+
+@media (max-width:786px) {
+    .intro {
+        padding: 0 24px;
+    }
+}
+
+@media (max-width:400px) {
+    .intro {
+        padding: 0 16px;
+    }
+} 
+
+
+

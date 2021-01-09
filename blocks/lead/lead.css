@@ -2,17 +2,18 @@
     box-sizing: border-box;
     width: 100%;
     margin:0 auto;
-    padding:0 48px 92px;
+    padding:0 0 92px;
     color: #FFFFFF;
+    border: olivedrab 1px solid;
+}
+@media (max-width:1000px) {
+    .lead {
+        padding:0 0 88px;
+    }
 }
 
 @media (max-width:400px) {
     .lead {
         padding:0 0 64px;
-    }
-}
-@media (max-width:1000px) {
-    .lead {
-        padding:0 0 88px;
     }
 }

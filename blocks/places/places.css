@@ -1,7 +1,17 @@
 .places {
     box-sizing: border-box;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 48px 92px;
     
+}
+
+@media (max-width:1000px) {
+    .places {
+        padding: 0 24px 90px;
+    }
+}
+@media (max-width:767px) {
+    .places {
+        padding: 0 0 66px;
 }

@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     margin-bottom: 12px;
-    width: 456px;
-    height: 12px;
     font-weight: normal;
     font-size: 12px;
-    line-height: 1.0;
+    line-height: 1.7;
     letter-spacing: 0.2em;
+    border: rebeccapurple 1px solid;
+}
+
+@media screen and (max-width:1023px) {
+    .place__url-heading {
+        line-height: 1.0;
+    }
 }

@@ -1,8 +1,16 @@
 .place__link {
     color: inherit;
-    width: 456px;
-    height: 22px;
+    max-width: 456px;
     font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
+    border: rebeccapurple 1px solid;
+}
+
+@media screen and (max-width:767px) {
+    .place__link {
+        margin-bottom: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 }
