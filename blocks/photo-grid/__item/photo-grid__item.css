@@ -1,9 +1,9 @@
 .photo-grid__item {
+    box-sizing: border-box;
     width: 100%;
-    margin-bottom: 12px;
   }
 
-  @media (max-width:400px) {
+  @media (max-width:600px) {
     .photo-grid__item {
       margin-bottom: 12px;
     }

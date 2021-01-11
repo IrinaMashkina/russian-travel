@@ -2,27 +2,25 @@
     box-sizing: border-box;
     color: #ffffff;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 92px;
     width: 100%;
-    box-sizing: border-box;
-    border: olivedrab 1px solid;
 }
 
 @media (max-width:1279px) {
     .intro {
-        padding: 0 48px;
+        padding: 0 48px 92px;
     }
 }
 
 @media (max-width:786px) {
     .intro {
-        padding: 0 24px;
+        padding: 0 24px 88px;
     }
 }
 
 @media (max-width:400px) {
     .intro {
-        padding: 0 16px;
+        padding: 0 16px 64px;
     }
 } 
 

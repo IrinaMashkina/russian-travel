@@ -1,4 +1,6 @@
 .header {
+  width: 100%;
+    min-height: 128px;
     box-sizing: border-box;
     margin:0 auto;
     padding:28px 48px 48px;
@@ -6,12 +8,17 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    min-height: 128px;
+    
     }
     
 @media screen and (max-width:768px) {
     .header {
       padding: 28px 24px 48px;
     }
+}
+
+@media screen and (max-width:600px) {
+  .header {
+    padding: 16px 16px 48px;
+  }
 }
