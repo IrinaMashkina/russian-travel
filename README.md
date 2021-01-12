@@ -13,5 +13,5 @@
 
 ***
 ### Cсылка на проект: 
-[Путешествия по России](https://irinamashkina.github.io/russian-travel/)
+[https://irinamashkina.github.io/russian-travel/]
 ***
